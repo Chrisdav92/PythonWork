@@ -1,0 +1,5 @@
+#printing even and odd elements in a string
+
+for x in range(int(input())):
+    s = input()
+    print(s[::2],s[1::2])
